@@ -35,7 +35,7 @@ void setup() {
   lcd.print("Attente NTP...");
   Serial.print("Attente date et heure");
   struct tm t;
-  while (!getLocalTime(&t)) {   // attend jusqu'a 5 s par essai
+  while (!getLocalTime(&t)) {   // attend jusqu'a 5 s par essai : bool getLocalTime(struct tm * info, uint32_t ms = 5000);
     Serial.print('.');
   }
   Serial.println("\nHeure recue");
