@@ -1,7 +1,7 @@
 # Horloge NTP – ESP32 + LCD 1602 I2C
 
 Affiche l'heure et la date (heure de Paris, changement d'heure automatique) sur un écran LCD 1602, en récupérant l'heure sur `pool.ntp.org` via le WiFi.
-
+Ce montage fait partie de mes premiers projets avec l’ESP32. Réalisé en novembre 2023 et remis en service en novembre 2026, je le conserve ici pour garder une trace du code et du câblage.
 
 ## Matériel
 
